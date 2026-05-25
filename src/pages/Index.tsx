@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import ajstImage from "../assets/ajst-branch.jpeg";
+import ajstImage from "@/assets/ajst-branch.jpeg";
 import { useImageCalibration, BasePosition } from "@/hooks/useImageCalibration";
 import { CopyGroup, CopyGroupProps } from "@/components/CopyGroup";
 

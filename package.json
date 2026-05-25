@@ -2,14 +2,14 @@
  "name": "ajst-copy-image",
  "private": true,
  "version": "0.0.0",
- "homepage": "https://ajstworkspace-lgtm.github.io/ajst-copy-image",
  "type": "module",
  "scripts": {
   "dev": "vite",
   "build": "vite build",
   "build:dev": "vite build --mode development",
   "lint": "eslint .",
-"preview": "vite preview --port 8080",  "test": "vitest run",
+  "preview": "vite preview",  
+  "test": "vitest run",
   "test:watch": "vitest"
  },
  "dependencies": {

@@ -5,7 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/ajst-copy-image/',  // <-- ADD THIS LINE (change to your repo name)
   server: {
     host: "::",
     port: 3000,
@@ -15,6 +14,7 @@ export default defineConfig(({ mode }) => ({
   },
 
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  base: '/ajst-copy-image/',  // <-- ADD THIS LINE (change to your repo name)
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
